@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hacktech17" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="This text is bullshit and is just fot testing yo swag pimp quarrel boiling point, is limitless." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BlD-qw-Amk">
+                                <rect key="frame" x="16" y="28" width="343" height="198"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="B7G-1t-aH4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I4R-fG-4ZM">
+                                <rect key="frame" x="16" y="449" width="343" height="198"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="198" id="p2V-XG-xLy"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="2ae-zK-PBb">
+                                <rect key="frame" x="14" y="251" width="347" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSg-7R-7Ul">
+                                <rect key="frame" x="133" y="318" width="108" height="30"/>
+                                <state key="normal" title="partial translate"/>
+                                <connections>
+                                    <action selector="translateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qCv-bp-fGT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I4R-fG-4ZM" secondAttribute="bottom" constant="20" id="172-bs-LG3"/>
+                            <constraint firstItem="2ae-zK-PBb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6I1-wT-fRU"/>
+                            <constraint firstItem="tSg-7R-7Ul" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CMs-EI-n0N"/>
+                            <constraint firstItem="BlD-qw-Amk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="F0d-Fe-zUu"/>
+                            <constraint firstItem="tSg-7R-7Ul" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IBV-dt-7a6"/>
+                            <constraint firstItem="I4R-fG-4ZM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gwG-96-L5S"/>
+                            <constraint firstItem="BlD-qw-Amk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h75-I0-Unk"/>
+                            <constraint firstItem="2ae-zK-PBb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oj6-fH-ULU"/>
+                            <constraint firstItem="2ae-zK-PBb" firstAttribute="top" secondItem="BlD-qw-Amk" secondAttribute="bottom" constant="25" id="q5e-mz-56L"/>
+                            <constraint firstItem="BlD-qw-Amk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qMd-n0-GO1"/>
+                            <constraint firstItem="I4R-fG-4ZM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sJj-j5-ZaM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="difficultyLevelSlider" destination="2ae-zK-PBb" id="wiN-fv-Wfn"/>
+                        <outlet property="processedTextField" destination="I4R-fG-4ZM" id="Gsu-hB-6FF"/>
+                        <outlet property="sourceTextField" destination="BlD-qw-Amk" id="jrj-JQ-gdy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

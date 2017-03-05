@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6F5C2EDB6B042B51810239 /* Pods_Hacktech17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D99731D50AA174868AB1C5 /* Pods_Hacktech17.framework */; };
+		CC52E80CAA1D6456F8C3DA09 /* Pods_Hacktech17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B61E9B0721EE105AB2BF0A /* Pods_Hacktech17Tests.framework */; };
+		ED44A5F81E6C193000441FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44A5F71E6C193000441FA7 /* AppDelegate.swift */; };
+		ED44A5FA1E6C193000441FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44A5F91E6C193000441FA7 /* ViewController.swift */; };
+		ED44A5FD1E6C193000441FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44A5FB1E6C193000441FA7 /* Main.storyboard */; };
+		ED44A5FF1E6C193000441FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED44A5FE1E6C193000441FA7 /* Assets.xcassets */; };
+		ED44A6021E6C193000441FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44A6001E6C193000441FA7 /* LaunchScreen.storyboard */; };
+		ED44A60D1E6C193000441FA7 /* Hacktech17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44A60C1E6C193000441FA7 /* Hacktech17Tests.swift */; };
+		ED44A6181E6C1C8E00441FA7 /* TranslateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44A6171E6C1C8E00441FA7 /* TranslateAPIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED44A6091E6C193000441FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED44A5EC1E6C193000441FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED44A5F31E6C193000441FA7;
+			remoteInfo = Hacktech17;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A6A80E62C08C7B0DBC40FA0 /* Pods-Hacktech17.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktech17.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hacktech17/Pods-Hacktech17.debug.xcconfig"; sourceTree = "<group>"; };
+		4B477602860273404254F10F /* Pods-Hacktech17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktech17.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hacktech17/Pods-Hacktech17.release.xcconfig"; sourceTree = "<group>"; };
+		59F1203D3A9C37F1C1302321 /* Pods-Hacktech17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktech17Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hacktech17Tests/Pods-Hacktech17Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A193045FCC3AE76858E40CB7 /* Pods-Hacktech17Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktech17Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hacktech17Tests/Pods-Hacktech17Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B61E9B0721EE105AB2BF0A /* Pods_Hacktech17Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacktech17Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D99731D50AA174868AB1C5 /* Pods_Hacktech17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacktech17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44A5F41E6C193000441FA7 /* Hacktech17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktech17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44A5F71E6C193000441FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED44A5F91E6C193000441FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED44A5FC1E6C193000441FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED44A5FE1E6C193000441FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED44A6011E6C193000441FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED44A6031E6C193000441FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44A6081E6C193000441FA7 /* Hacktech17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hacktech17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44A60C1E6C193000441FA7 /* Hacktech17Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacktech17Tests.swift; sourceTree = "<group>"; };
+		ED44A60E1E6C193000441FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44A6171E6C1C8E00441FA7 /* TranslateAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateAPIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED44A5F11E6C193000441FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6F5C2EDB6B042B51810239 /* Pods_Hacktech17.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44A6051E6C193000441FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC52E80CAA1D6456F8C3DA09 /* Pods_Hacktech17Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B7F6B67CE4972117044EA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3D99731D50AA174868AB1C5 /* Pods_Hacktech17.framework */,
+				A1B61E9B0721EE105AB2BF0A /* Pods_Hacktech17Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD974849020F46E4711B5A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A6A80E62C08C7B0DBC40FA0 /* Pods-Hacktech17.debug.xcconfig */,
+				4B477602860273404254F10F /* Pods-Hacktech17.release.xcconfig */,
+				59F1203D3A9C37F1C1302321 /* Pods-Hacktech17Tests.debug.xcconfig */,
+				A193045FCC3AE76858E40CB7 /* Pods-Hacktech17Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED44A5EB1E6C193000441FA7 = {
+			isa = PBXGroup;
+			children = (
+				ED44A5F61E6C193000441FA7 /* Hacktech17 */,
+				ED44A60B1E6C193000441FA7 /* Hacktech17Tests */,
+				ED44A5F51E6C193000441FA7 /* Products */,
+				DFD974849020F46E4711B5A5 /* Pods */,
+				9B7F6B67CE4972117044EA65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED44A5F51E6C193000441FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED44A5F41E6C193000441FA7 /* Hacktech17.app */,
+				ED44A6081E6C193000441FA7 /* Hacktech17Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED44A5F61E6C193000441FA7 /* Hacktech17 */ = {
+			isa = PBXGroup;
+			children = (
+				ED44A5F71E6C193000441FA7 /* AppDelegate.swift */,
+				ED44A6171E6C1C8E00441FA7 /* TranslateAPIManager.swift */,
+				ED44A5F91E6C193000441FA7 /* ViewController.swift */,
+				ED44A5FB1E6C193000441FA7 /* Main.storyboard */,
+				ED44A5FE1E6C193000441FA7 /* Assets.xcassets */,
+				ED44A6001E6C193000441FA7 /* LaunchScreen.storyboard */,
+				ED44A6031E6C193000441FA7 /* Info.plist */,
+			);
+			path = Hacktech17;
+			sourceTree = "<group>";
+		};
+		ED44A60B1E6C193000441FA7 /* Hacktech17Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED44A60C1E6C193000441FA7 /* Hacktech17Tests.swift */,
+				ED44A60E1E6C193000441FA7 /* Info.plist */,
+			);
+			path = Hacktech17Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED44A5F31E6C193000441FA7 /* Hacktech17 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44A6111E6C193000441FA7 /* Build configuration list for PBXNativeTarget "Hacktech17" */;
+			buildPhases = (
+				28038530176CC2102FF26FDA /* [CP] Check Pods Manifest.lock */,
+				ED44A5F01E6C193000441FA7 /* Sources */,
+				ED44A5F11E6C193000441FA7 /* Frameworks */,
+				ED44A5F21E6C193000441FA7 /* Resources */,
+				51A38F8F7492407A78B9E203 /* [CP] Embed Pods Frameworks */,
+				0C1BF6909892C33D58126B09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hacktech17;
+			productName = Hacktech17;
+			productReference = ED44A5F41E6C193000441FA7 /* Hacktech17.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED44A6071E6C193000441FA7 /* Hacktech17Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44A6141E6C193000441FA7 /* Build configuration list for PBXNativeTarget "Hacktech17Tests" */;
+			buildPhases = (
+				9B955C00162E204E4F9E03B6 /* [CP] Check Pods Manifest.lock */,
+				ED44A6041E6C193000441FA7 /* Sources */,
+				ED44A6051E6C193000441FA7 /* Frameworks */,
+				ED44A6061E6C193000441FA7 /* Resources */,
+				6D4D517C7E82DDFD9AEC9896 /* [CP] Embed Pods Frameworks */,
+				96D31EB3F28162CD3194DE2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED44A60A1E6C193000441FA7 /* PBXTargetDependency */,
+			);
+			name = Hacktech17Tests;
+			productName = Hacktech17Tests;
+			productReference = ED44A6081E6C193000441FA7 /* Hacktech17Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED44A5EC1E6C193000441FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BrainDump;
+				TargetAttributes = {
+					ED44A5F31E6C193000441FA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A55978949T;
+						ProvisioningStyle = Automatic;
+					};
+					ED44A6071E6C193000441FA7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED44A5F31E6C193000441FA7;
+					};
+				};
+			};
+			buildConfigurationList = ED44A5EF1E6C193000441FA7 /* Build configuration list for PBXProject "Hacktech17" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED44A5EB1E6C193000441FA7;
+			productRefGroup = ED44A5F51E6C193000441FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED44A5F31E6C193000441FA7 /* Hacktech17 */,
+				ED44A6071E6C193000441FA7 /* Hacktech17Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED44A5F21E6C193000441FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44A6021E6C193000441FA7 /* LaunchScreen.storyboard in Resources */,
+				ED44A5FF1E6C193000441FA7 /* Assets.xcassets in Resources */,
+				ED44A5FD1E6C193000441FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44A6061E6C193000441FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1BF6909892C33D58126B09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hacktech17/Pods-Hacktech17-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28038530176CC2102FF26FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51A38F8F7492407A78B9E203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hacktech17/Pods-Hacktech17-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4D517C7E82DDFD9AEC9896 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hacktech17Tests/Pods-Hacktech17Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D31EB3F28162CD3194DE2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hacktech17Tests/Pods-Hacktech17Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B955C00162E204E4F9E03B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED44A5F01E6C193000441FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44A6181E6C1C8E00441FA7 /* TranslateAPIManager.swift in Sources */,
+				ED44A5FA1E6C193000441FA7 /* ViewController.swift in Sources */,
+				ED44A5F81E6C193000441FA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44A6041E6C193000441FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44A60D1E6C193000441FA7 /* Hacktech17Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED44A60A1E6C193000441FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED44A5F31E6C193000441FA7 /* Hacktech17 */;
+			targetProxy = ED44A6091E6C193000441FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED44A5FB1E6C193000441FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44A5FC1E6C193000441FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED44A6001E6C193000441FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44A6011E6C193000441FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED44A60F1E6C193000441FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED44A6101E6C193000441FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED44A6121E6C193000441FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6A80E62C08C7B0DBC40FA0 /* Pods-Hacktech17.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = Hacktech17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.Hacktech17;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED44A6131E6C193000441FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B477602860273404254F10F /* Pods-Hacktech17.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A55978949T;
+				INFOPLIST_FILE = Hacktech17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.Hacktech17;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED44A6151E6C193000441FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F1203D3A9C37F1C1302321 /* Pods-Hacktech17Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hacktech17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.Hacktech17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hacktech17.app/Hacktech17";
+			};
+			name = Debug;
+		};
+		ED44A6161E6C193000441FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A193045FCC3AE76858E40CB7 /* Pods-Hacktech17Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hacktech17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrainDump.Hacktech17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hacktech17.app/Hacktech17";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED44A5EF1E6C193000441FA7 /* Build configuration list for PBXProject "Hacktech17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44A60F1E6C193000441FA7 /* Debug */,
+				ED44A6101E6C193000441FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED44A6111E6C193000441FA7 /* Build configuration list for PBXNativeTarget "Hacktech17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44A6121E6C193000441FA7 /* Debug */,
+				ED44A6131E6C193000441FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED44A6141E6C193000441FA7 /* Build configuration list for PBXNativeTarget "Hacktech17Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44A6151E6C193000441FA7 /* Debug */,
+				ED44A6161E6C193000441FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED44A5EC1E6C193000441FA7 /* Project object */;
+}
